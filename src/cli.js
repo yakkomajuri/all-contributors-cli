@@ -102,6 +102,8 @@ async function addContribution(argv) {
     '$0': '../all-contributors-cli/src/cli.js'
   }
   */
+  util.configFile.readConfig(argv.config) // ensure the config file exists
+
   const username = argv._[1] === undefined ? undefined : String(argv._[1])
   const contributions = argv._[2]
 
