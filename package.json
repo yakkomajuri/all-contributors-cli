@@ -1,5 +1,5 @@
 {
-  "name": "all-contributors-cli",
+  "name": "@posthog/all-contributors-cli",
   "version": "0.0.1",
   "description": "Tool to easily add recognition for new contributors",
   "bin": {
