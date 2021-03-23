@@ -7,8 +7,7 @@ const badgeContent = [
   '<!-- ALL-CONTRIBUTORS-BADGE:END -->',
 ].join('\n')
 
-const headerContent =
-  'Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):'
+const headerContent = '[//]: contributor-faces'
 const listContent = [
   '<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->',
   '<!-- prettier-ignore-start -->',
@@ -42,7 +41,7 @@ function addContributorsList(lines) {
   const insertionLine = findContributorsSection(lines)
   if (insertionLine === -1) {
     return lines.concat([
-      '## Contributors ✨',
+      '## Contributors 🦸',
       '',
       headerContent,
       '',
